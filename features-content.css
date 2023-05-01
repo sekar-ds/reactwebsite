@@ -1,0 +1,52 @@
+.background1{
+    background-image: linear-gradient(to right,rgb(94, 209, 255),rgb(248, 203, 210));
+    margin-top: -50px;
+    border-bottom-right-radius: 300px;
+    height: 550px;
+}
+.feature1{
+    background-color: rgb(141, 97, 243);
+    padding: 10px;
+    height: 3px;
+    cursor: pointer;
+    width: 90px;
+    color:rgb(244, 255, 255);
+    border-radius: 7px;  
+}
+.feature1:hover{
+    background-color: rgb(152, 250, 204);
+    color:rgb(54, 50, 50);
+    text-transform: uppercase;
+}
+.feature-text{
+    margin-top: 20px;
+}
+.footer1{
+    margin-top: 50px;
+}
+.joyimage{
+    margin-top: -13px;
+}
+.button1{
+    display: none;
+}
+.navicon{
+    margin-top: -10px;
+}
+.button1{
+    display: none;
+}
+.joinbut9{
+    background-color: rgb(250, 229, 233);
+    text-decoration: none;
+    padding: 6px;
+    text-transform:uppercase;
+    color:black;
+   border-radius: 5px;
+}
+.joinbut9:hover{
+    background-color: rgb(243, 195, 204);
+    text-transform:uppercase;
+}
+
+

@@ -1,0 +1,12 @@
+#navitem{
+    margin-left: 550px;
+}
+.flex  a{
+    text-decoration: none;
+    color:orangered;
+    font-size: 19px;
+ }
+ .flex  a:hover{
+     color:rgb(12, 12, 12);
+     border-bottom: 2px solid red;
+ }

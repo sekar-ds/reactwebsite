@@ -1,0 +1,175 @@
+.text-center._title-div ._title-tag {
+    text-align: center;
+}
+._title-div ._title-tag {
+    color: #ed1c24;
+    text-align: left;
+    line-height: 17px;
+    margin-bottom: 5px;
+}
+._title-tag {
+    font-size: 19px;
+    line-height: 59px;
+    text-transform: uppercase;
+    color: #ed1c24;
+    letter-spacing: 5px;
+    font-family: 'NexaBold';
+    
+}
+._title-div {
+    margin-bottom: 20px;
+}
+.text-center ._btmLine-decor:after, .text-center ._btmLine-decor-yellow:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+._btmLine-decor:after, ._btmLine-decor-yellow:after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 4px;
+    width: 55px;
+    background-color: #ed1c24;
+    bottom: -5px;
+}
+.text-center {
+    text-align: center!important;
+}
+.text-center {
+    text-align: center;
+}
+.container h3{
+    color:black;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+._commonPadding {
+    /* padding-top: 45px; */
+    padding-bottom: 45px;
+}
+article, aside, dialog, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+._btmLine-decor, ._btmLine-decor-yellow {
+    position: relative;
+    padding-bottom: 10px;
+   
+}
+._title {
+    font-size: 20px;
+    line-height: 28px;
+    color: #040c26;
+    font-family: "NexaBold";
+    margin-bottom: 15px;
+}
+._title-div p {
+    color: #040c26;
+}
+p {
+    font-size: 20px;
+    line-height: 22px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0 0 10px 0;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.owl-carousel {
+
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+}
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+}
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0,0,0);
+}
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    -webkit-backface-visibility: hidden;
+   
+}
+._techFig {
+    margin: 0;
+    background: #f5f5f5;
+    border: 1px solid #f5f5f5;
+    padding: 20px 25px;
+    margin-left: 20px;
+    height: 150px;
+    display: -webkit-box;
+    display: -ms-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+figure {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+
+
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 400ms;
+    transition-delay: 0ms;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.mySwiper{
+    width: 400px;
+    
+    background-size: cover;
+    
+}
+
+
+
+
+
+
+
+
+@media (min-width: 992px){
+._title-tag {
+    font-size: 18px;
+    line-height: 39px;
+    letter-spacing: 6px;
+}
+._technologySection {
+    padding-top: 20px;
+}
+}
+@media (min-width: 768px){
+    ._commonPadding {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    ._title {
+        font-size: 23px;
+        line-height: 28px;
+    }
+    
+    }

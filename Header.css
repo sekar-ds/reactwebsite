@@ -1,0 +1,129 @@
+.phone22{
+  margin-left: 740px;
+}
+.phone22:hover{
+  text-decoration: none;
+  color:rgb(97, 235, 97)
+}
+.phone1{
+  margin-left: 1100px;
+  margin-top:50px;
+  position: fixed;
+  z-index: 2;
+}
+.phone1:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+.topimage1{
+  position: fixed;
+  top:10px;
+  z-index: 5;
+  margin-left: 20px;
+}
+
+#top2{
+  margin-top: 70px;
+  margin-left: 3px;
+  position:absolute;
+}
+#navcon{
+  margin-top: 0px;
+  margin-left: -100px;
+  
+}
+
+.nav{
+  height:90px;
+  width: 100%;
+  position:fixed;
+  top:0;
+  transition-timing-function: ease-in;
+  transition:0.5s;
+  background-color:rgba(4,16,45,.5);
+ 
+ 
+}
+
+.nav__blue{
+  background-color:transparent;
+  width: 100%;
+  
+  
+}
+      @keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+      .navbutton2{
+        margin-top: -30px;
+        margin-left: 20px;
+        width: 100%;
+        display: flex;
+        margin-left: 20px;
+        
+       
+      }
+      #navbar3{
+        position: fixed;
+        margin-left: 290px;
+        z-index: 1;
+      }
+
+@media (max-width:1080px){
+  .phone22{
+    margin-left: 0px;
+    
+  }
+  #contactus{
+  display: none;
+  }
+  .phone1{
+    display:none;
+  }
+  .phone22{
+    display: none;
+  }
+  #top2{
+   display:block;
+   margin-top: 80px; 
+  }
+  #topimages{
+   margin-top: -10px;
+    margin-left: -20px;
+  }
+}
+
+  @media (min-width:320px){
+    #navbar3{
+      margin-left: 140px;
+    }
+    #topimages{
+      margin-left: -12px;
+       margin-top: -20px; 
+      font-size: 10px;
+    }
+    #navbar3{
+      z-index: 2;
+    }
+   
+   
+  }
+  @media (max-width:1241px){
+    .phone1{
+     margin-left: 1000px;
+    }
+    
+   
+  }
+  

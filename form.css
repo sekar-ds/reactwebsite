@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#linktag{
+    margin-left: 300px;
+    font-size: 20px;
+    color: red;
+}
+
+
+.margintop1{
+    margin-top: 30px;
+    padding: 20px;
+    background-image: radial-gradient(rgb(223, 208, 240),rgb(59, 189, 182));
+
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: radial-gradient(rgb(223, 208, 240),rgb(59, 189, 182));
+}
+.forms{
+    background-color: white;
+    padding: 30px;
+    width: 400px;
+    height: 350px;
+    border-radius: 9px;
+}
+.form-input{
+    padding: 10px;
+   
+}
+.form-input h3{
+    margin-left: 120px;
+    margin-top: -30px;
+    color:rgb(16, 90, 16)
+}
+.input1{
+    display: grid;
+    margin-top: 2px;
+    margin-bottom: 6px;
+    padding-bottom: 2px;
+}
+.green{
+    background-color: rgb(178, 250, 178);
+    padding:6px;
+    font-size: 20px;
+    color:rgb(128, 124, 120);
+    
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    height: 40px;
+}
+.green:hover{
+    background-color: rgb(71, 173, 71);
+    color:white
+}
+.delete{
+    background-color: rgb(27, 26, 26);
+    padding: 6px;
+    font-size: 20px;
+    color:rgb(92, 90, 87);
+    height: 40px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
+}
+.delete:hover{
+    background-color: rgb(27, 26, 26);
+    color:white
+}
+.input1 lable{
+    font-size: 20px;
+    font-family: 'NexaBold';
+}
+.input1 input{
+    border-bottom: 2px solid black;
+   
+}
+@media (min-width:320px){
+    .green{
+        background-color:  rgb(178, 250, 178);
+        padding:5px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        display: block;
+        width: 300px;
+       
+        margin-top: -20px;
+}
+.delete{
+    background-color: rgb(27, 26, 26);
+    padding: 5px;
+    display: block;
+    width: 300px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 6px;
+    
+}
+}

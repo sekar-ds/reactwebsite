@@ -1,0 +1,250 @@
+.toptext1{
+    margin-top: 90px;
+    height: 700px;
+    padding: 50px;
+}
+.p1{
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: 'NexaBold';
+    color:red;
+}
+.color1{
+    background-image: url('../assets/img/features/software5.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.p2{
+    font-size: 30px;
+    font-family: 'NexaBold';
+    color:rgb(18, 97, 18);
+}
+ .p2::after {
+   
+        content: "";
+        margin-left: 460px;
+        display: block;
+        width: 100px;
+        background-color:red;
+        height: 5px;
+        margin-top: 20px;
+}
+.p3{
+    font-size: 25px;
+    color:rgb(218, 44, 44);
+}
+.button1{
+    background-color: rgb(29, 28, 28);
+    text-decoration: none;
+    padding: 10px;
+    width: 34px;
+    height: 60px;
+    border-radius: 7px;
+    color:white;
+    text-transform: capitalize;
+
+
+    
+}
+.button1:hover{
+    color:white;
+    text-transform: uppercase;
+    background-color:rgb(159, 245, 159) ;
+}
+.button2{
+    background-color:rgb(243, 229, 149);
+    text-decoration: none;
+    padding: 10px;
+    color:black;
+    margin-left: 15px;
+    border-radius: 7px;
+    border: 3px solid white;
+    text-transform: capitalize;
+
+}
+.button2:hover{
+    color:white;
+    text-transform: uppercase;
+    background-color:rgb(240, 183, 98) ;
+}
+.para11{
+    font-size: 20px;
+    color:rgb(6, 83, 6);
+    text-transform: uppercase;
+    letter-spacing: 9px;
+}
+.para11:hover{
+    color:red;
+}
+.para22{
+font-size: 25px;
+color:rgb(238, 103, 103);
+
+}
+
+
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.wpcf7 .wpcf7-checkbox.multiple {
+    height: 80px !important;
+    display: grid ;
+    overflow-x: scroll;
+    grid-template-columns:  300px 300px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+._footerForm .form-control {
+    background-color: transparent;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 45px!important;
+    color:rgb(59, 53, 53);
+    border: 1px solid transparent;
+    border-bottom-color: rgba(236, 44, 44, 0.5);
+}
+.form-control {
+    width: 100%;
+   
+    background-color: #fff;
+    border: 1px solid #dcddde;
+    height: 35px;
+    /* padding: 10px 15px; */
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    color: #a7a9ac;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: white;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: 'border-color' .15s ease-in-out,'box-shadow' .15s ease-in-out;
+}
+._footerForm {
+    background-image: radial-gradient(rgb(241, 163, 231),rgb(135, 227, 255));
+    border-top: 5px solid #fff;
+    padding: 25px 15px;
+     
+    box-shadow: 0 0 30px 6px rgba(0,0,0,.4);
+
+}
+.form2{
+    margin-top: -400px;
+    
+}
+
+.row {
+    
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+._footerForm input.btn {
+    background-color: #fff;
+   color:black;
+    width: 100%;
+    margin-top: 15px;
+}
+._footerForm input.btn:hover{
+    color:white;
+    background-color: rgb(144, 240, 144);
+    text-transform: uppercase;
+}
+._footer .btn {
+    box-shadow: none;
+    margin-bottom: 5px;
+    height: 55px;
+    padding: 10px 25px;
+    font-family: 'NexaBold';
+    line-height: 36px;
+    letter-spacing: 2px;
+    font-size: 13px;
+    min-width: 235px;
+}
+#forms ::placeholder{
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width:340px){
+    .p1{
+        font-size: 15px;
+        letter-spacing: 5px;
+        font-family: 'NexaBold';
+        color:red;
+    }
+    .wpcf7 .wpcf7-checkbox.multiple {
+        height: 80px !important;
+        display: grid ;
+        overflow-x: scroll;
+        grid-template-columns: 600px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+    .p2{
+        font-size: 20px;
+        font-family: 'NexaBold';
+        color:gray;
+    }
+    .p3{
+        margin-top: -30px;
+        font-size: 15px;
+        color:rgb(71, 64, 64);
+    }
+    .button1{
+        background-color: rgb(29, 28, 28);
+        text-decoration: none;
+        padding: 3px;
+        width: 34px;
+        height: 60px;
+        border-radius: 7px;
+        color:white;
+        text-transform: capitalize;
+    
+    
+        
+    }
+    .button2{
+        background-color:transparent;
+        text-decoration: none;
+        display: block;
+        padding: 1px;
+        margin-top: 10px;
+        color:rgb(71, 240, 71);
+        margin-left: 15px;
+        border-radius: 7px;
+        border: 3px solid white;
+        text-transform: capitalize;
+    
+    }
+    #para11{
+        display:none
+         }
+    
+}
+@media (max-width:1080px){
+    #para11{
+   display:none
+    }
+    .wpcf7 .wpcf7-checkbox.multiple {
+        height: 80px !important;
+        display: grid ;
+        overflow-x: scroll;
+        grid-template-columns: 600px;
+
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    }
+}
